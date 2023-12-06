@@ -1,0 +1,71 @@
+name: Lancer tests unitaires
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  issues: write 
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+       # 1. Checkout
+      - name: 1. Checkout...
+        uses: actions/checkout@v4
+
+      # 2. Set up
+      - name: 2. Set up .NET...
+        uses : actions/setup-dotnet@v3
+        with:
+          dotnet-version: '6.0.x'
+
+      # 2.5 Cache dependences
+      - name: 2.5 Cache dependences...
+        uses: actions/cache@v3
+        with:
+          path: ~/.nuget/packages
+          # Look to see if there is a cache hit for the corresponding requirements file
+          key: ${{ runner.os }}-nuget-${{ hashFiles('**/*.csproj') }}
+          restore-keys: |
+            ${{ runner.os }}-nuget
+
+      # 3. Restore dependences
+      - name: 3. Restore Dependencies...
+        run: dotnet restore 14E_TP2_A23/14E_TP2_A23.csproj
+      
+      # 4. Build
+      - name: 4. Build...
+        run: dotnet build --no-restore 14E_TP2_A23/14E_TP2_A23.csproj
+
+      # 5. Unit tests
+      - name: 5. Unit tests...
+        run: dotnet test 14E_TP2_A23_Tests/14E_TP2_A23_Tests.csproj
+
+      # 6. Verifier echec
+      - name: 6. Verifier echec
+        if: failure()
+        uses: actions/github-script@v5
+        with:
+          script: |
+            const issueTitle = `Échec d'un build: ${process.env.GITHUB_REF}`;
+            const issueBody = `Échec d'un build sur la branche: ${process.env.GITHUB_REF}.`;
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: issueTitle,
+              body: issueBody
+            });
+
+      # # 6. Vérifier echec
+      # - name: 6. Verifier echec
+      #   if: failure()
+      #   uses: JasonEtco/create-an-issue@v2
+        
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #     id: create-issue

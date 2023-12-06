@@ -1,0 +1,9 @@
+﻿<Application x:Class="_14E_TP2_A23.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:_14E_TP2_A23">
+    <!-- NE PAS METTRE DE StartUpURI!! Est définit dans App.xaml.cs > OnStartUp - StartupUri="Views/MainWindow.xaml" -->
+    <Application.Resources>
+
+    </Application.Resources>
+</Application>

@@ -1,0 +1,20 @@
+[
+  {
+    "_id": {
+      "$oid": "65471979f6436e9014e3bddd"
+    },
+    "username": "test6",
+    "password": "$2a$12$Accr3yJldJwNpZMEHVWbL.Pk4vesQT5WQln6lH74z.QxkVngg2gs.",
+    "salt": "$2a$12$Accr3yJldJwNpZMEHVWbL.",
+    "isAdmin": false
+  },
+  {
+    "_id": {
+      "$oid": "65494689bb59ee85dd4b576f"
+    },
+    "username": "qwerty",
+    "password": "$2a$12$kubmsxm6tfDjtAZbJhAG7e3GTtR0gi4Pa98atUYWoBmSgIeinXqHa",
+    "salt": "$2a$12$kubmsxm6tfDjtAZbJhAG7e",
+    "isAdmin": true
+  }
+]

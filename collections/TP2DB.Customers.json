@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "6548692c973deac78905fa2d"
+  },
+  "fullname": "COCO MAMA STOP FULL",
+  "email": "123@email.com",
+  "membershipStartDate": {
+    "$date": "2023-11-21T05:00:00.000Z"
+  },
+  "isMembershipActive": false
+},
+{
+  "_id": {
+    "$oid": "6548696d056f81268854026e"
+  },
+  "fullname": "dfasdas",
+  "email": "abc@email.com",
+  "membershipStartDate": {
+    "$date": "2023-11-05T04:00:00.000Z"
+  },
+  "isMembershipActive": false
+},
+{
+  "_id": {
+    "$oid": "65486a9c001e5ec4c8a0e9d1"
+  },
+  "fullname": "123123",
+  "email": "1123@email.com",
+  "membershipStartDate": {
+    "$date": "2023-11-05T04:00:00.000Z"
+  },
+  "isMembershipActive": false
+},
+{
+  "_id": {
+    "$oid": "654877cc4e02fdac7c0b3e1a"
+  },
+  "fullname": "dsadsa",
+  "email": "1dsad23@email.com",
+  "membershipStartDate": {
+    "$date": "2024-01-11T05:00:00.000Z"
+  },
+  "isMembershipActive": true
+},
+{
+  "_id": {
+    "$oid": "65493c769915ad098a1a2034"
+  },
+  "fullname": "lol",
+  "email": "1423@email.com",
+  "membershipStartDate": {
+    "$date": "2023-11-06T05:00:00.000Z"
+  },
+  "isMembershipActive": true
+},
+{
+  "_id": {
+    "$oid": "654ab0ed7727a6826368d29a"
+  },
+  "fullname": "Jack le client full stop",
+  "email": "Jack@email.com",
+  "membershipStartDate": {
+    "$date": "2023-11-07T05:00:00.000Z"
+  },
+  "isMembershipActive": false
+}]
