@@ -4,6 +4,10 @@
 
 ![Tests](https://github.com/satcrane/tp3-qualite-logicielle/actions/workflows/main.yml/badge.svg)
 
+Ancienne repo avec les commits : 
+https://github.com/appliquant/tp3-qualite-logicielle
+On a changé de repo car on a eu des problèmes de conflits, et on a décidé de recommencer avec une nouvelle repo.
+
 # Initialiser la base de données
 1. Créer une base de données nommée `TP2DB`
 2. Créer ces collections : `Employees`, `Customers`, `ClimbingWalls`, `ClimbingRoutes`
