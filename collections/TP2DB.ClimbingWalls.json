@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "656accc741785b3a3a2463c7"
+  },
+  "location": "Zone-A",
+  "height": "12.5"
+},
+{
+  "_id": {
+    "$oid": "656acd0e41785b3a3a2463c8"
+  },
+  "location": "Zone-B",
+  "height": "10"
+},
+{
+  "_id": {
+    "$oid": "656acd3e41785b3a3a2463c9"
+  },
+  "location": "Zone-C",
+  "height": "14"
+},
+{
+  "_id": {
+    "$oid": "656acd5841785b3a3a2463ca"
+  },
+  "location": "Zone-D",
+  "height": "22"
+},
+{
+  "_id": {
+    "$oid": "656aff7841785b3a3a2463e7"
+  },
+  "location": "Zone-E",
+  "height": "8"
+},
+{
+  "_id": {
+    "$oid": "656affdd41785b3a3a2463e8"
+  },
+  "location": "Zone-F",
+  "height": "5"
+}]
