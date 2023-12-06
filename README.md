@@ -9,8 +9,8 @@
 
 # Initialiser la base de données
 1. Créer une base de données nommée `TP2DB`
-2. Créer deux collections : `Employees` et `Customers`
-3. Importer les fichiers `TP2DB.Employees.json` et `TP2DB.Customers.json` dans les collections respectives dans la base de données `TP2DB`
+2. Créer ces collections : `Employees`, `Customers`, `ClimbingWalls`, `ClimbingRoutes`
+3. Importer les fichiers `TP2DB.Employees.json`, `TP2DB.Customers.json`, `TP2DB.ClimbingWalls.json`, `TP2DB.ClimbingRoutes.json` dans les collections respectives dans la base de données `TP2DB`
 
 # Utilisateurs tests
 ## Employés (`Employees` dans la bd)
