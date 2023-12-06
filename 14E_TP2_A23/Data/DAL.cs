@@ -17,7 +17,7 @@ namespace _14E_TP2_A23.Data
         /// <summary>
         /// Nom de la base de donnée
         /// </summary>
-        private static readonly string DB_NAME = "TP2DB";
+        private static readonly string DB_NAME = "TP3DB";
 
         /// <summary>
         /// Nom de la collection des utilisateurs
