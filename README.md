@@ -2,7 +2,7 @@
 
 Équipe : Danny, Satya
 
-![Tests](https://github.com/appliquant/tp3-qualite-logicielle/actions/workflows/main.yml/badge.svg)
+![Tests](https://github.com/satcrane/tp3-qualite-logicielle/actions/workflows/main.yml/badge.svg)
 
 
 
