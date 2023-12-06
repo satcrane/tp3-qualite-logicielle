@@ -1,0 +1,56 @@
+[{
+  "_id": {
+    "$oid": "656addf841785b3a3a2463dd"
+  },
+  "wallId": null,
+  "difficulty": "4",
+  "holdsColor": "Red",
+  "difficultyRatings": [
+    3,
+    5,
+    2,
+    6,
+    3
+  ],
+  "name": "Voie facile - 1"
+},
+{
+  "_id": {
+    "$oid": "656ae64f41785b3a3a2463e1"
+  },
+  "wallId": {
+    "$oid": "656acd0e41785b3a3a2463c8"
+  },
+  "difficulty": "7",
+  "difficultyRatings": [
+    "5",
+    "8",
+    "7"
+  ],
+  "holdsColor": "Black",
+  "name": "Voie difficile - 1"
+},
+{
+  "_id": {
+    "$oid": "656bfaaa006404c5a643d462"
+  },
+  "wallId": null,
+  "name": "Voie facile - 2",
+  "difficulty": 3,
+  "holdsColor": "Jaune",
+  "difficultyRatings": [
+    5
+  ]
+},
+{
+  "_id": {
+    "$oid": "65709c4c7d097831d3b3a611"
+  },
+  "wallId": null,
+  "name": "Voie difficile - 2",
+  "difficulty": 8,
+  "holdsColor": "Orange",
+  "difficultyRatings": [
+    1
+  ]
+}]

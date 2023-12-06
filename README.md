@@ -4,9 +4,6 @@
 
 ![Tests](https://github.com/satcrane/tp3-qualite-logicielle/actions/workflows/main.yml/badge.svg)
 
-
-
-
 # Initialiser la base de données
 1. Créer une base de données nommée `TP2DB`
 2. Créer ces collections : `Employees`, `Customers`, `ClimbingWalls`, `ClimbingRoutes`
