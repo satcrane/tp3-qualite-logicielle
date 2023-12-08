@@ -11,7 +11,7 @@ On a changé de repo car on a eu des problèmes de conflits, et on a décidé de
 # Initialiser la base de données
 1. Créer une base de données nommée `TP3DB`
 2. Créer ces collections : `Employees`, `Customers`, `ClimbingWalls`, `ClimbingRoutes`
-3. Importer les fichiers `TP2DB.Employees.json`, `TP2DB.Customers.json`, `TP2DB.ClimbingWalls.json`, `TP2DB.ClimbingRoutes.json` dans les collections respectives dans la base de données `TP2DB`
+3. Importer les fichiers `TP2DB.Employees.json`, `TP2DB.Customers.json`, `TP2DB.ClimbingWalls.json`, `TP2DB.ClimbingRoutes.json` dans les collections respectives dans la base de données `TP3DB`
 
 # Utilisateurs tests
 ## Employés (`Employees` dans la bd)
