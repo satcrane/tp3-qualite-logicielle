@@ -33,18 +33,18 @@
 
         <StackPanel Grid.Row="1" Grid.ColumnSpan="4">
             <Label Padding="0" FontSize="20" Margin="100, 10, 10, 10" Content="Zone employé" />
-            <Button Click="btnAddCustomer_Click" x:Name="btnAddCustomer" Width="100" HorizontalAlignment="Left" Margin="100, 0, 0, 10" Content="Ajouter un client"/>
-            <Button Click="btnUpdateCustomers_Click" x:Name="btnUpdateCustomers" Width="100" HorizontalAlignment="Left" Margin="100, 0, 0, 10" Content="Gérer abonnements"/>
-            <Button Click="btnManageClimbingWalls_Click" x:Name="btnManageClimbingWalls" Width="100" HorizontalAlignment="Left" Margin="100, 0, 0, 10" Content="Gérer murs" />
+            <Button Click="btnAddCustomer_Click" x:Name="btnAddCustomer" Width="110" HorizontalAlignment="Left" Margin="100, 0, 0, 10" Content="Ajouter un client"/>
+            <Button Click="btnUpdateCustomers_Click" x:Name="btnUpdateCustomers" Width="110" HorizontalAlignment="Left" Margin="100, 0, 0, 10" Content="Gérer abonnements"/>
+            <Button Click="btnManageClimbingWalls_Click" x:Name="btnManageClimbingWalls" Width="110" HorizontalAlignment="Left" Margin="100, 0, 0, 10" Content="Gérer murs" />
         </StackPanel>
 
         <StackPanel Grid.Row="2" Grid.ColumnSpan="4">
             <Label Padding="0" FontSize="20" Margin="100, 10, 10, 10" Content="Zone administration" />
-            <Button Click="btnUpdateEmployees_Click" x:Name="btnUpdateEmployees" Width="100" HorizontalAlignment="Left" Margin="100, 0, 0, 10"  Content="Gérer employés"/>
+            <Button Click="btnUpdateEmployees_Click" x:Name="btnUpdateEmployees" Width="110" HorizontalAlignment="Left" Margin="100, 0, 0, 10"  Content="Gérer employés"/>
         </StackPanel>
 
         <StackPanel Margin="0, 100, 0, 0" Grid.Row="3" Grid.ColumnSpan="4">
-            <Button Click="btnLogout_Click" x:Name="btnLogout" Width="100" HorizontalAlignment="Left" Margin="100, 0, 0, 10"  Content="Déconnexion" />
+            <Button Click="btnLogout_Click" x:Name="btnLogout" Width="110" HorizontalAlignment="Left" Margin="100, 0, 0, 10"  Content="Déconnexion" />
         </StackPanel>
     </Grid>
 </Page>
